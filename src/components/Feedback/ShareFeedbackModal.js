@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import { useNavigate } from "react-router-dom";
-import { CreatableSelect } from "@atlaskit/select";
+// import { CreatableSelect } from "@atlaskit/select";
 import { Input, Rate } from "antd";
 import axiosInstance from "@/helper/axoisInstance";
 import { errorToastMessage, successToastMessage } from "../Toast/CustomToast";
@@ -185,7 +185,7 @@ function ShareFeedbackModal(props) {
           {/* <SelectField
             options={["I have a suggestion", "I have a compliment"]}
           /> */}
-          <CreatableSelect
+          {/* <CreatableSelect
             classNamePrefix={[
               `${
                 process.env.NODE_ENV === "production"
@@ -200,7 +200,7 @@ function ShareFeedbackModal(props) {
             options={inputOptions}
             value={selectedAnswer}
             // {...field}
-          />
+          /> */}
 
           {/* <select name="feedbackSuggestion">
             <option disabled>I have a suggestion</option>
@@ -208,7 +208,7 @@ function ShareFeedbackModal(props) {
             <option>Option 2</option>
           </select> */}
           <h2>Which product would you like to give feedback on?</h2>
-          <CreatableSelect
+          {/* <CreatableSelect
             classNamePrefix={[
               `${
                 process.env.NODE_ENV === "production"
@@ -218,12 +218,9 @@ function ShareFeedbackModal(props) {
             ].join(" ")}
             isClearable={false}
             onChange={handleSecondInputChange}
-            // register={formRegister}
-            // onCreateOption={handleCreate}
             options={secondInputOptions}
             value={secondSelectedAnswer}
-            // {...field}
-          />
+          /> */}
           {/* <select name="feedbackProduct">
             <option>Choose one of our products</option>
             <option>Option 1</option>
