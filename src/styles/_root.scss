@@ -1,0 +1,128 @@
+:root {
+  font-size: 62.5%;
+}
+.homee {
+  max-width: 100vw !important;
+  // overflow-x: hidden !important;
+  // contain: paint;
+  overflow-x: clip;
+  margin-bottom: -5rem;
+}
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+// @media (min-width: 1600px) and (max-width: 2000px) {
+//   :root {
+//     font-size: 70%;
+//   }
+// }
+
+// @media (min-width: 2001px) and (max-width: 3000px) {
+//   :root {
+//     font-size: 75%;
+//   }
+// }
+
+// @media (min-width: 3001px) and (max-width: 4000px) {
+//   :root {
+//     font-size: 115%;
+//   }
+// }
+
+// @media (min-width: 4001px) and (max-width: 5000px) {
+//   :root {
+//     font-size: 155%;
+//   }
+// }
+// @media (min-width: 5001px) {
+//   :root {
+//     font-size: 200%;
+//   }
+// }
+
+@import "./componentsStyles/navbar";
+@import "./componentsStyles/footer";
+@import "./componentsStyles/buttons";
+@import "./componentsStyles/inputs";
+@import "./componentsStyles/whoiscareeraifor";
+@import "./componentsStyles/openaibox";
+@import "./componentsStyles/benefits";
+@import "./componentsStyles/forlayout";
+@import "./componentsStyles/homescroll";
+@import "./componentsStyles/testimonial";
+@import "./componentsStyles/buildyourresume";
+@import "./componentsStyles/sectionscroll";
+@import "./componentsStyles/feedback";
+
+@import "./pagesStyles/home";
+@import "./pagesStyles/pricing";
+@import "./pagesStyles/contact";
+@import "./pagesStyles/forinstitution";
+@import "./pagesStyles/about";
+@import "./pagesStyles/bloghome";
+@import "./pagesStyles/faq";
+@import "./pagesStyles/resumeexamples";
+
+.give-it-a-try {
+  transform: translateX(-20px) !important;
+}
+.arrow {
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  transform: rotate(270deg);
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.arrow span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-bottom: 3px solid #0145fd;
+  border-right: 3px solid #0145fd;
+  transform: rotate(45deg);
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-2px, -2px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+}

@@ -1,0 +1,86 @@
+.whoiscareeraifor {
+  // width: 107rem;
+  width: 120rem;
+  max-width: 90%;
+  min-height: 55rem;
+  padding: 8rem 1rem;
+  // margin: 17rem auto;
+  margin: 134px auto 17rem auto;
+  overflow: hidden;
+
+  background: #2a1f88;
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  .who-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 6rem;
+    color: #ffffff;
+    margin-bottom: 4.5rem;
+    text-align: center;
+    @media screen and (max-width: 500px) {
+      font-size: 3rem;
+      line-height: normal;
+    }
+  }
+  .who-people-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    .who-people {
+      width: 15rem;
+      height: 15rem;
+      background: #ffffff;
+      border-radius: 1rem;
+      display: grid;
+      place-items: center;
+      border: 0.3rem solid transparent;
+      cursor: pointer;
+      &--active,
+      &:hover {
+        border: 0.3rem solid #ffb400;
+      }
+      &:last-child {
+        img {
+          transform: scale(1.3);
+        }
+      }
+      img {
+        height: 8.4rem;
+        width: 8.4rem;
+      }
+    }
+    margin-bottom: 5.5rem;
+  }
+  p {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 60rem;
+    max-width: 90%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 26px;
+  }
+  .whobg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 478.08 559.68">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #e0e6f4;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        font-size: 17.71px;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-family: Inter-SemiBold, Inter;
+        font-variation-settings: 'wght' 600, 'slnt' 0;
+        font-weight: 600;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #0145fd;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: .02em;
+      }
+
+      .cls-5 {
+        font-size: 15.36px;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        fill: none;
+        stroke: #0145fd;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-19 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        font-size: 16.75px;
+      }
+
+      .cls-20 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        font-size: 13.58px;
+      }
+
+      .cls-7, .cls-9, .cls-10 {
+        font-family: Inter-Regular, Inter;
+        font-variation-settings: 'wght' 400, 'slnt' 0;
+      }
+
+      .cls-21 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        font-size: 14.33px;
+      }
+
+      .cls-23 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        font-size: 13.96px;
+      }
+
+      .cls-26 {
+        letter-spacing: 0em;
+      }
+
+      .cls-27 {
+        fill: #eceff8;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect class="cls-3" x="8.12" y="8.02" width="447.75" height="529.53" rx="23.62" ry="23.62"/>
+  <g>
+    <text class="cls-4" transform="translate(57.71 62.42)"><tspan x="0" y="0">My </tspan><tspan class="cls-17" x="30.64" y="0">R</tspan><tspan x="42.03" y="0">esume</tspan></text>
+    <path class="cls-8" d="m51.71,56.51h-9.75l2.35-2.35c.2-.2.29-.44.29-.7,0-.5-.41-1.02-1.02-1.02-.27,0-.5.1-.7.29l-4.04,4.04c-.17.17-.34.37-.34.74s.14.55.33.74l4.05,4.05c.2.2.43.29.7.29.6,0,1.02-.52,1.02-1.02,0-.26-.09-.5-.29-.7l-2.35-2.35h9.75c.56,0,1.02-.46,1.02-1.02s-.46-1.02-1.02-1.02Z"/>
+  </g>
+  <text class="cls-5" transform="translate(266.81 62.16)"><tspan x="0" y="0">+</tspan><tspan class="cls-21" x="10.33" y="0">A</tspan><tspan x="21.18" y="0">dd cus</tspan><tspan class="cls-1" x="71" y="0">t</tspan><tspan x="76.74" y="0">om section</tspan></text>
+  <g>
+    <path class="cls-18" d="m179.98,63.28h6.48"/>
+    <path class="cls-18" d="m183.22,52.19c.6-.56,1.56-.56,2.16,0,.6.56.6,1.46,0,2.02l-9,8.4-2.88.67.72-2.69,9-8.4Z"/>
+  </g>
+  <rect class="cls-2" x="35.36" y="88.74" width="394.6" height="448.82"/>
+  <text class="cls-6" transform="translate(58.53 121.76)"><tspan class="cls-11" x="0" y="0">P</tspan><tspan x="10.65" y="0">ersonal In</tspan><tspan class="cls-22" x="89.8" y="0">f</tspan><tspan x="95.77" y="0">ormation</tspan></text>
+  <text class="cls-10" transform="translate(58.73 153.68)"><tspan x="0" y="0">Name*</tspan></text>
+  <text class="cls-10" transform="translate(238.98 153.68)"><tspan x="0" y="0">P</tspan><tspan class="cls-23" x="8.86" y="0">r</tspan><tspan x="13.82" y="0">e</tspan><tspan class="cls-19" x="21.95" y="0">f</tspan><tspan x="26.67" y="0">er</tspan><tspan class="cls-23" x="40" y="0">r</tspan><tspan x="44.96" y="0">ed </tspan><tspan class="cls-14" x="65.68" y="0">R</tspan><tspan x="74.53" y="0">ole</tspan></text>
+  <rect class="cls-27" x="58.53" y="159.93" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+  <rect class="cls-27" x="238.98" y="159.79" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+  <text class="cls-9" transform="translate(68.02 181)"><tspan x="0" y="0">Paul Harl</tspan><tspan class="cls-15" x="60.35" y="0">o</tspan><tspan x="68.63" y="0">w</tspan></text>
+  <text class="cls-9" transform="translate(249.95 181.43)"><tspan x="0" y="0">Mar</tspan><tspan class="cls-25" x="26.15" y="0">k</tspan><tspan x="33.62" y="0">eting Manager</tspan></text>
+  <g>
+    <rect class="cls-27" x="58.53" y="233.34" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+    <rect class="cls-27" x="238.98" y="233.34" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+    <text class="cls-10" transform="translate(59.62 226.52)"><tspan x="0" y="0">Email Add</tspan><tspan class="cls-23" x="65.68" y="0">r</tspan><tspan x="70.64" y="0">ess*</tspan></text>
+    <text class="cls-10" transform="translate(239.87 226.52)"><tspan x="0" y="0">Phone Number*</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-27" x="58.53" y="307.35" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+    <rect class="cls-27" x="238.98" y="307.35" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+    <text class="cls-10" transform="translate(59.62 300.53)"><tspan x="0" y="0">City*</tspan></text>
+    <text class="cls-10" transform="translate(239.87 300.53)"><tspan x="0" y="0">Sta</tspan><tspan class="cls-16" x="21.85" y="0">t</tspan><tspan x="26.85" y="0">e*</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-27" x="58.53" y="455.36" width="350.27" height="33.34" rx="6.29" ry="6.29"/>
+    <rect class="cls-27" x="58.53" y="498.17" width="350.27" height="33.34" rx="6.29" ry="6.29"/>
+    <text class="cls-10" transform="translate(59.62 448.54)"><tspan class="cls-24" x="0" y="0">W</tspan><tspan x="12.53" y="0">eblink</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-27" x="58.53" y="381.35" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+    <rect class="cls-27" x="238.98" y="381.35" width="170.36" height="33.34" rx="6.29" ry="6.29"/>
+    <text class="cls-10" transform="translate(59.62 374.53)"><tspan x="0" y="0">ZipCode</tspan></text>
+    <text class="cls-10" transform="translate(239.87 374.53)"><tspan x="0" y="0">Count</tspan><tspan class="cls-13" x="39.84" y="0">r</tspan><tspan x="45.28" y="0">y</tspan></text>
+  </g>
+  <text class="cls-7" transform="translate(68.02 253.76)"><tspan x="0" y="0">paulharl346@gmail.com</tspan></text>
+  <text class="cls-7" transform="translate(68.02 328.73)"><tspan x="0" y="0">Scot</tspan><tspan class="cls-26" x="29.27" y="0">t</tspan><tspan x="34.07" y="0">sdale</tspan></text>
+  <text class="cls-7" transform="translate(68.02 402.73)"><tspan x="0" y="0">3222</tspan></text>
+  <text class="cls-7" transform="translate(73.15 476.73)"><tspan x="0" y="0">paulharl.com</tspan></text>
+  <text class="cls-7" transform="translate(249.95 402.73)"><tspan x="0" y="0">USA</tspan></text>
+  <text class="cls-7" transform="translate(249.95 328.73)"><tspan x="0" y="0">Ari</tspan><tspan class="cls-20" x="17.45" y="0">z</tspan><tspan x="24.59" y="0">ona</tspan></text>
+  <text class="cls-9" transform="translate(249.95 254.95)"><tspan x="0" y="0">021</tspan><tspan class="cls-12" x="24.28" y="0">-</tspan><tspan x="30.71" y="0">3465552</tspan></text>
+</svg>

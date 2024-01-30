@@ -1,0 +1,116 @@
+header {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  z-index: 3000;
+  transition: background 0.6s ease;
+  // border-bottom: 1px solid #eaeaea;
+  transform: translateZ(0);
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  // background: hsla(0, 0%, 100%, 0.8);
+  // background-color: rgba(247, 247, 247, 0.8);
+  background-color: #fefefe;
+  position: sticky;
+  top: 0;
+  .main-header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      img {
+        width: 12.3rem;
+        height: 2.4rem;
+      }
+    }
+    .openbtn {
+      all: unset;
+      display: none;
+      place-items: center;
+    }
+
+    @media screen and (max-width: 1040px) {
+      .openbtn {
+        display: grid !important;
+      }
+    }
+    nav {
+      @media screen and (max-width: 1040px) {
+        display: none;
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        li {
+          list-style-type: none;
+          a {
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            color: #000000;
+            padding: 1rem 0;
+            border-top: 2px solid transparent;
+            border-bottom: 2px solid transparent;
+            transition: border 0.2s ease;
+            &:hover {
+              color: #0145fd;
+              border-bottom: 2px solid #0145fd;
+            }
+          }
+          .navlink-active {
+            color: #0145fd;
+            &:hover {
+              border-bottom: 2px solid transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobilenav__container {
+  @media screen and (min-width: 1040px) {
+    display: none;
+  }
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+
+  background: url("../../assets/images/abstract.svg") no-repeat;
+  background-color: rgb(255, 255, 255);
+  .closebtn {
+    all: unset;
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 8rem 4rem 5rem 4rem;
+    li {
+      padding: 2rem 0;
+      border-bottom: 2px solid #e3e3e3;
+      a {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}

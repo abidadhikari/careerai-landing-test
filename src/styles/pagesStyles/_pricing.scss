@@ -1,0 +1,100 @@
+.pricing__page {
+  padding: 11rem 0;
+
+  h1 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%;
+    margin-bottom: 6.5rem;
+  }
+
+  .pricing__wrapper {
+    background: #ffffff;
+    margin: 0 auto;
+    box-shadow: -1rem 1rem 3rem rgba(0, 0, 0, 0.06);
+    padding: 5.6rem 6.4rem;
+    @media screen and (max-width: 1100px) {
+      padding: 4rem 5rem;
+    }
+
+    .pricing__row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      @media screen and (max-width: 1100px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+      }
+      @media screen and (max-width: 670px) {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+
+      gap: 10rem;
+      .single__pricing {
+        .sp-title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 2.4rem;
+          line-height: 3.6rem;
+          color: #000000;
+          margin-bottom: 0.9rem;
+        }
+        .sp-desc {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.8rem;
+          line-height: 2.4rem;
+          color: #3f3f3f;
+          margin-bottom: 2.6rem;
+        }
+        .sp-price {
+          display: flex;
+          align-items: center;
+          gap: 0.7rem;
+          margin-bottom: 4rem;
+          .sp-dollar {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 4rem;
+            line-height: 6rem;
+            color: #000000;
+          }
+          .sp-date {
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.6rem;
+            color: #000000;
+          }
+        }
+        button {
+          margin-bottom: 4.5rem;
+        }
+        .sp-pricing__list {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+
+          .sp-item {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            color: #000000;
+            padding-bottom: 1.5rem;
+            border-bottom: 0.1rem solid #e9f5ff;
+            &:last-child {
+              border-bottom: 0.1rem solid transparent;
+            }
+            display: flex;
+            gap: 1.7rem;
+            .sp-icon {
+              svg {
+                color: #ffb400;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.btn {
+  all: unset;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  padding: 1.6rem 3.2rem;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+.secondary-btn {
+  border: 0.1rem solid #0145fd;
+
+  color: #0145fd;
+
+  background-color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: #0145fd;
+  }
+}
+
+.primary-btn {
+  background-color: #0145fd;
+  border: 0.1rem solid #0145fd;
+  color: #fff;
+  .lds-ring {
+    // div {
+    //   border: 4px solid #fff;
+    // }
+  }
+  &:hover {
+    // background-color: #0145fd;
+    color: #fff;
+    border: 0.1rem solid #00299a;
+    background-color: #00299a;
+  }
+}

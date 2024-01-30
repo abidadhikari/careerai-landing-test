@@ -1,0 +1,40 @@
+.for__hero {
+  padding-top: 11.2rem;
+  min-height: 50rem;
+  padding-bottom: 11rem;
+  background: #2a1f88;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  h1 {
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 2.5rem;
+    span {
+      color: #ffb400;
+    }
+  }
+  p {
+    text-align: center;
+    width: 73.7rem;
+    max-width: 90%;
+    color: #ffffff;
+    margin-bottom: 4.5rem;
+    z-index: 2;
+    font-size: 1.8rem;
+  }
+  button,
+  a {
+    z-index: 2;
+  }
+  .fh-img {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+}
