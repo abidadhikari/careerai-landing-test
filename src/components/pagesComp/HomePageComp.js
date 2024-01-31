@@ -235,8 +235,8 @@ function HomePageComp(props) {
           >
             {/* <Image src={newHeroImage} alt="behind image" /> */}
             <Image
-              // src="/images/new1.png"
-              src={newOne}
+              src="/images/new1.png"
+              // src={newOne}
               alt="hero"
               loading="eager"
               width={597.8}
