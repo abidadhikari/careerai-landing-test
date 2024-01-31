@@ -42,7 +42,7 @@ import { v4 as uuidv4 } from "uuid";
 import allDetails from "@/assets/images/withDetails.png";
 import NewTestimonial from "../NewTestimonial/NewTestimonial";
 // import amaNewImage from '@/assets/images/medium.png';
-import newOne from "@/assets/images/new11.png";
+import newOne from "@/assets/images/new1.png";
 
 function HomePageComp(props) {
   const [responseArray, setResponseArray] = useState([""]);
